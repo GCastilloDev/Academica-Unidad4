@@ -30,6 +30,6 @@ public class Ejemplo011 {
        
        distancia = distancia==0?puntoA:puntoA-0.5f;
        
-        System.out.println("\nSu punto de encuntro es el km " + distancia);
+        System.out.println("\nSu punto de encuentro es el km " + distancia);
     }
 }

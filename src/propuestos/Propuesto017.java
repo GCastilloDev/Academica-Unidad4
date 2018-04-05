@@ -12,7 +12,7 @@ public class Propuesto017 {
     public static void imprimirTabla(int num){
         
         for (int i = 1; i <= num; i++){
-            System.out.println(num + " * " + i + " \t= " + (num * i));
+            System.out.println(num + " * " + i + " = " + (num * i));
         }
     }
     public static void main(String[] args) {

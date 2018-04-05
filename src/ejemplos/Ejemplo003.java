@@ -12,7 +12,7 @@ public class Ejemplo003 {
     public float sumarDiezNum(){
         Scanner n = new Scanner(System.in);
         float suma = 0f, num;
-        for(int i=1;i<=5;i++){
+        for(int i=1;i<=10;i++){
             System.out.print("Ingrese el número ["+i+"] a sumar: ");
             num = n.nextFloat();
             suma = suma + num;      

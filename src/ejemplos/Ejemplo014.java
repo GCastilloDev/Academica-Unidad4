@@ -33,6 +33,6 @@ public class Ejemplo014 {
             pagoTotal+=pagoEmpleado;
         }
         
-        System.out.println("\nEl pago total de los emplados fué $" + pagoTotal);
+        System.out.println("\nEl pago total de los empleados fué $" + pagoTotal);
     }
 }

@@ -54,12 +54,14 @@ public class Ejemplo012 {
         
               
         System.out.println("\t\t\t\t\t\t***Cantidad de ventas realizadas***");
-        System.out.println("\nMayores a $1000.00 \tMayores a $500.00 y/o menores igual a $1000.000 \tMenores o igual a $500.00");
+        System.out.println("\nMayores a $1000.00 \tMayores a $500.00 y/o menores igual a $1000.000 "
+                + "\tMenores o igual a $500.00");
         System.out.println("\t"+contadorCat1 +"\t\t\t\t\t"+contadorCat2+"\t\t\t\t\t"+contadorCat3);
         System.out.println("Total de ventas realizadas: " + contadorT);
         
         System.out.println("\n\t\t\t\t\t\t***Monto de ventas realizadas***");
-        System.out.println("\nMayores a $1000.00 \tMayores a $500.00 y/o menores igual a $1000.000 \tMenores o igual a $500.00");
+        System.out.println("\nMayores a $1000.00 \tMayores a $500.00 y/o menores igual a $1000.000"
+                + " \tMenores o igual a $500.00");
         System.out.println("\t"+ventaCat1 +"\t\t\t\t\t"+ventaCat2+"\t\t\t\t\t"+ventaCat3);
         System.out.println("Monto de ventas realizadas: $" + ventaT);
     }

@@ -30,7 +30,7 @@ public class Ejemplo005 {
         }
         while(estatura>0);
        
-        System.out.println("\nEl promeido de estaturas de " + (i-1) + " personas"
+        System.out.println("\nEl promedio de estaturas de " + (i-1) + " personas"
                 + " es: " + promedio(i,suma));
     }    
 }

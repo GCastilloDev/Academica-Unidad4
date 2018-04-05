@@ -29,7 +29,7 @@ public class Ejemplo010 {
         Scanner n = new Scanner (System.in);
         
         System.out.print("Ingresa tu salario por hora $");
-        float salarioHora = n.nextInt();
+        float salarioHora = n.nextFloat();
         
         int horasTotal = 0;       
         for(int i=1;i<=6;i++){

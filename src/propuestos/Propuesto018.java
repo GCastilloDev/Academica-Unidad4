@@ -15,6 +15,7 @@ public class Propuesto018 {
     P(1+i)^n Fórumala de interés compuesto.
     */
     public static void main(String[] args) {
+        System.out.println("*** Programa que proyecta una inversión ***\n");
         
         Calendar fecha = Calendar.getInstance();
         
@@ -25,7 +26,7 @@ public class Propuesto018 {
         BigDecimal interes = new BigDecimal(0.15);
         BigDecimal cantidadInicial = new BigDecimal(1500);
         Locale mx = new Locale("es","MX");
-        NumberFormat f = NumberFormat.getCurrencyInstance(Locale.ROOT);
+        NumberFormat f = NumberFormat.getCurrencyInstance(mx);
         
         for (int i=1; i <= anios; i++){
             potencia = potencia.multiply(uno.add(interes));
