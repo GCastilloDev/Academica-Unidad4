@@ -11,7 +11,7 @@ public class Propuesto011 {
     Obtener una función exponencial, la cual está dada por:
     e^x = 1 + (x^1/1!) + (x^2/2!) + ....
     */
-    
+    //Modificación1
     public static double obtenerFactorial(int n){
         if (n==0)
                 return 1;
