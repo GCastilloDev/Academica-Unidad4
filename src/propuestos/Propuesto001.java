@@ -2,7 +2,7 @@ package propuestos;
 
 /**
  *
- * @author Gustavo
+ * @author Gustavo Shadow
  */
 public class Propuesto001 {
     /*
